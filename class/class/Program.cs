@@ -29,7 +29,6 @@ namespace clas
             Stack.Print(s);
             s = Stack.Concat(new Stack("a", "b", "c"), new Stack("1", "2", "3"), new Stack("А", "Б", "В"));
             Stack.Print(s);
-
         }
         public class Stack
         {
